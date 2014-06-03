@@ -12,6 +12,7 @@ namespace DSAndAlgo
         {
             LinkedList lst = new LinkedList();
             lst.HasLoopInLinkedList2ndApproach();
+            Console.ReadKey();
         }
     }
 }
