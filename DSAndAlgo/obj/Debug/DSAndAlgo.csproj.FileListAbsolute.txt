@@ -1,0 +1,6 @@
+D:\Git Depot\DSAndAlgo\DSAndAlgo\bin\Debug\DSAndAlgo.exe.config
+D:\Git Depot\DSAndAlgo\DSAndAlgo\obj\Debug\DSAndAlgo.csprojResolveAssemblyReference.cache
+D:\Git Depot\DSAndAlgo\DSAndAlgo\bin\Debug\DSAndAlgo.exe
+D:\Git Depot\DSAndAlgo\DSAndAlgo\bin\Debug\DSAndAlgo.pdb
+D:\Git Depot\DSAndAlgo\DSAndAlgo\obj\Debug\DSAndAlgo.exe
+D:\Git Depot\DSAndAlgo\DSAndAlgo\obj\Debug\DSAndAlgo.pdb
