@@ -42,6 +42,24 @@ namespace DSAndAlgo
 
         }
 
+        /* Algorithm */
+
+        /*
+          1.  pntr1 and pntr2 start out by both pointing to the head node
+              pntr2 is then advanced n-1 nodes.  pntr1 is still 
+
+         2.  pointing to the head.  After this, we keep advancing 
+             pntr2 by one node and pntr 1 is also advanced by one node
+
+          3. Once pntr2 is equal to null we know we  have reached
+             the last node and pntr1 now points to the nth to last 
+             node, and we can return our answer as the node that
+             pntr1 is pointing to.
+         
+         */
+
+
+
         public int FindKthElementFromLastNode()
         {
             LinkedList lst = new LinkedList();
