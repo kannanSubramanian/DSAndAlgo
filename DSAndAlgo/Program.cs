@@ -11,8 +11,7 @@ namespace DSAndAlgo
         static void Main(string[] args)
         {
             LinkedList lst = new LinkedList();
-            lst.HasLoopInLinkedList2ndApproach();
-            Console.ReadKey();
+            lst.ReverseLinkedList();
         }
     }
 }
