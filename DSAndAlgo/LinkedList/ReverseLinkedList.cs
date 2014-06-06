@@ -12,10 +12,9 @@ namespace DSAndAlgo
 {
     public partial class LinkedList
     {
-        public void ReverseLinkedList()
+        public LinkedList ReverseLinkedList()
         {
             LinkedList lst = new LinkedList();
-            LinkedList reversedLst = new LinkedList();
 
             lst.Add(new Node(10));
             lst.Add(new Node(20));
@@ -36,6 +35,8 @@ namespace DSAndAlgo
             }
             current.Next = prev;
             lst.head = current;
+
+            return lst;
 
         }
     }

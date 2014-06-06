@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LinkedList\DetectLoopInLinkedList.cs" />
+    <Compile Include="LinkedList\FindNthElementFromLastNodeOfLinkedList.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />
     <Compile Include="LinkedList\ReverseLinkedList.cs" />
     <Compile Include="Program.cs" />

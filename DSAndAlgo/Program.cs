@@ -11,7 +11,7 @@ namespace DSAndAlgo
         static void Main(string[] args)
         {
             LinkedList lst = new LinkedList();
-            lst.ReverseLinkedList();
+            lst.FindKthElementFromLastNode();
         }
     }
 }
