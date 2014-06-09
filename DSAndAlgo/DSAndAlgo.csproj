@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\CheckIfArrayHasDups.cs" />
     <Compile Include="LinkedList\DetectLoopInLinkedList.cs" />
     <Compile Include="LinkedList\FindNthElementFromLastNodeOfLinkedList.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />

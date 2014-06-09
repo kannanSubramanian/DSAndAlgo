@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DSAndAlgo.Array;
 
 namespace DSAndAlgo
 {
@@ -10,8 +11,10 @@ namespace DSAndAlgo
     {
         static void Main(string[] args)
         {
-            LinkedList lst = new LinkedList();
-            lst.FindKthElementFromLastNode();
+            DSAndAlgo.Array.Array arry = new Array.Array();
+            bool hasDups = arry.CheckIfTheArrayHasDupsUsingHashSetApproach();
+            Console.ReadKey();
+            
         }
     }
 }
