@@ -11,8 +11,8 @@ namespace DSAndAlgo
     {
         static void Main(string[] args)
         {
-            DSAndAlgo.Array.Array arry = new Array.Array();
-            bool hasDups = arry.CheckIfTheArrayHasDupsUsingHashSetApproach();
+            DSAndAlgo.Array.Array ary = new Array.Array();
+            var a = ary.GetAllTheDupsInArray();
             Console.ReadKey();
             
         }

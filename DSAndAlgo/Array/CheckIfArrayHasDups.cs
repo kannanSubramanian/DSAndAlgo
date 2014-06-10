@@ -12,7 +12,7 @@ namespace DSAndAlgo.Array
 
         /*  Check every element of the array with every othere element in the array */
 
-        int[] array = new int[] { 2, 1, 100, 10, 7, 11, 13, 16, 16 };
+        int[] array = new int[] { 2, 1, 100, 10, 7, 11, 13, 16, 16, 32, 18, 2 };
 
         public bool CheckIfArrayHasDupsUsingBruteForceApproach()
         {
@@ -59,10 +59,32 @@ namespace DSAndAlgo.Array
             return hasDups;
         }
 
+        /* Program to return all dups in the array */
 
-
-
-
+        /* Iterate through the array and contruct a dictionary with key as elements in the array and value as number of occurance the element is present in the array 
+           Now get all the elements in the dictionary where the value is greater than 1
+         */
         
+
+        public List<int> GetAllTheDupsInArray()
+        {
+            Dictionary<int,int> arrayMap = new Dictionary<int,int>();
+             for (int i = 0; i < array.Length; i++)
+             {
+                 if(!arrayMap.ContainsKey(array[i]))
+                 {
+                     arrayMap.Add(array[i],1);
+                 }
+                 else
+                 {
+                     int value = 0;
+                     value = arrayMap[array[i]];
+                     value = value +1;
+                     arrayMap[array[i]] = value;
+                 }
+             }
+
+             return arrayMap.Where(p => p.Value > 1).Select(p => p.Key).ToList();
+        }
     }
 }
