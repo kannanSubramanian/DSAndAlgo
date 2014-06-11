@@ -15,7 +15,7 @@ namespace DSAndAlgo
         {
             Value = val;
         }
-       
+
     }
 
     public partial class LinkedList
@@ -37,7 +37,24 @@ namespace DSAndAlgo
             }
         }
 
-       
+        public int Length()
+        {
+            int lstLength = 0;
+
+            if (head == null)
+            {
+                return lstLength;
+            }
+
+            Node currentPtr = head;
+            while (currentPtr != null)
+            {
+                lstLength += 1;
+                currentPtr = currentPtr.Next;
+            }
+
+            return lstLength;
+        }
 
     }
 }
