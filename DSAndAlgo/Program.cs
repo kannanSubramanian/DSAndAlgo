@@ -17,12 +17,11 @@ namespace DSAndAlgo
             lst.Add(new Node(10));
             lst.Add(new Node(20));
             lst.Add(new Node(30));
-            lst.Add(new Node(40));
-            lst.Add(new Node(50));
-            lst.Add(new Node(60));
+             lst.Add(new Node(40));
+             lst.Add(new Node(50));
+             lst.Add(new Node(60));
 
-            lst.Length();
-            Console.ReadKey();
+            lst.Delete(60);
             
         }
     }

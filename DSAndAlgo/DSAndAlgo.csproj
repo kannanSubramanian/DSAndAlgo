@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\CheckIfArrayHasDups.cs" />
+    <Compile Include="LinkedList\DeleteNodeInLinkedList.cs" />
     <Compile Include="LinkedList\DetectLoopInLinkedList.cs" />
     <Compile Include="LinkedList\FindMiddleElementInLinkedList.cs" />
     <Compile Include="LinkedList\FindNthElementFromLastNodeOfLinkedList.cs" />
