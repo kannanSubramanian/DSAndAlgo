@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using DSAndAlgo.Array;
 using DSAndAlgo.String;
+using DSAndAlgo.Searching;
+using DSAndAlgo.Stack;
 
 namespace DSAndAlgo
 {
@@ -12,17 +14,8 @@ namespace DSAndAlgo
     {
         static void Main(string[] args)
         {
-            LinkedList lst = new LinkedList();
-
-            lst.Add(new Node(10));
-            lst.Add(new Node(20));
-            lst.Add(new Node(30));
-             lst.Add(new Node(40));
-             lst.Add(new Node(50));
-             lst.Add(new Node(60));
-
-            lst.Delete(60);
-            
+            StackUsingListMain stckMain = new StackUsingListMain();
+            stckMain.InitStack();
         }
     }
 }
